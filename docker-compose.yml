@@ -1,0 +1,23 @@
+#  docker-compose -f docker-compose.yml config check validate config
+version: "3.7"
+services:
+  springboot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "limweb/springboot:v1"
+    container_name: springboot
+    working_dir: /app
+    restart: "always"
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    volumes:
+      - ./:/app/
+
+networks:
+  default:
+    external:
+      name: proxy-network
+
