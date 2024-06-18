@@ -1,15 +1,18 @@
 # project ตั้งต้นของ Spring Boot  
 ## สิ่งที่ต้องการทำ
 ###
-1. Docker Development Hot Reload
-2. Auto Generate Swagger UI
-3. Controller CRUD 
-4. Jwt Auth 
-5. Connect Database Mysql
-6. Connect Database PostgreSql
-7. Relation One2One
-8. Relation One2Many
-9. Relation Many2Many
-10. Snippet for vscode
-11. Upload files
-12. Docker build Production
+<ol>
+ <li>Docker Development Hot Reload</li>
+ <li>Auto Generate Swagger UI   http://127.0.0.1:8080/swagger-ui/index.html</li>
+ <li>Controller CRUD </li>
+ <li>Jwt Auth </li>
+ <li>Connect Database Sqlite</li>
+ <li>Connect Database Mysql</li>
+ <li>Connect Database PostgreSql</li>
+ <li>Relation One2One</li>
+ <li>Relation One2Many</li>
+ <li>Relation Many2Many</li>
+ <li>Snippet for vscode</li>
+ <li>Upload files</li>
+ <li>Docker build Production</li>
+</ol>
